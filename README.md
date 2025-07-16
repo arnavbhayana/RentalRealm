@@ -1,45 +1,40 @@
-# hotelwallah
- 
-Here’s a clean and professional README.md you can use for your RentalRealm project. It's structured to include setup instructions, features, technologies used, and deployment tips.
+# Rental Realm
 
-RentalRealm
-A full-featured rental property management platform built with React, Node.js, and MongoDB, enabling users to list, search, and manage rental properties seamlessly.
+## Overview
 
+RentalRealm is a full-stack rental and property management platform built using the **MERN stack** (MongoDB, Express.js, React, Node.js). The app enables users to list, search, and book  properties. It includes both frontend and backend systems with secure authentication and a responsive UI.
 
-Features
-Authentication – User login/signup system
+---
 
-Property Listings – Add, edit, delete rental properties
+## Key Features
 
-Search & Filter – Find properties by location, price, type
+- User registration, login, and JWT-based authentication
+- Property listing with image uploads and location details
+- Browse and search for available properties
+- Booking system with date selection
+- Owner dashboard for managing listings
+- Responsive UI built with Tailwind CSS
+- API integration using Axios for real-time updates
+- Backend API with Express and MongoDB
 
-Interactive UI – Beautiful responsive design with filters
+---
 
-Backend API – Built with Node.js, Express, and MongoDB
+## Tech Stack
 
-Admin Panel – Optional role-based access for property owners
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
 
-Tech Stack
-Frontend:
+### Backend
+- Node.js
+- Express.js
+- MongoDB & Mongoose
+- Multer (for image uploads)
+- JSON Web Token (JWT)
+- bcryptjs (for password hashing)
+- dotenv & cookie-parser
 
-React.js (with Vite)
-
-Tailwind CSS
-
-Backend:
-
-Node.js
-
-Express.js
-
-MongoDB (Mongoose)
-
-Other Tools:
-
-Axios
-
-React Router
-
-JWT for authentication
-
-dotenv for environment config
+---
